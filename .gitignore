@@ -26,9 +26,3 @@ __pycache__/
 .DS_Store
 .vscode/
 .idea/
-
-# Local notes/tooling
-.claude/
-
-# Screenshots may contain copyrighted text excerpts; review before publishing.
-BAZI SSLER*/
