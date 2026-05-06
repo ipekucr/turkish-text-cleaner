@@ -1,0 +1,9 @@
+# Turkish Text Cleaner Pipeline - Requirements
+
+# PDF text extraction
+PyMuPDF>=1.24.0          # PDF text extraction (fitz)
+
+# OCR (optional; only needed for scanned PDFs where digital text cannot be extracted)
+pdf2image>=1.17.0         # Convert PDF pages to images for OCR fallback
+pytesseract>=0.3.10       # Tesseract OCR wrapper
+Pillow>=10.0.0            # Image processing dependency for pdf2image

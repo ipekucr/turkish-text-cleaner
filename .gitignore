@@ -1,0 +1,34 @@
+# Local/private book data
+# Do not commit PDFs or extracted book text unless you have explicit rights.
+book-input/*
+book-output-raw/*
+book-output-clean/*
+book-output-json/
+!book-input/.gitkeep
+!book-output-raw/.gitkeep
+!book-output-clean/.gitkeep
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Local notes/tooling
+.claude/
+
+# Screenshots may contain copyrighted text excerpts; review before publishing.
+BAZI SSLER*/
