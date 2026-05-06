@@ -53,7 +53,7 @@ When adding a new rule:
 - Prefer structural or algorithmic signals first.
 - Use regex only when a simpler structural method is not enough.
 - Explain the false-positive risk.
-- Document the decision in `cleaning-notes.md` or `docs/algorithm.md`.
+- Document the decision in `docs/algorithm.md` when it changes public behavior.
 - Add at least one synthetic test example.
 
 ## Local Setup

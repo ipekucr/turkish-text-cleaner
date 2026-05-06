@@ -3,7 +3,6 @@
 book-input/*
 book-output-raw/*
 book-output-clean/*
-book-output-json/
 !book-input/.gitkeep
 !book-output-raw/.gitkeep
 !book-output-clean/.gitkeep
@@ -26,6 +25,3 @@ __pycache__/
 .DS_Store
 .vscode/
 .idea/
-
-# Private local notes
-cleaning-notes.md
